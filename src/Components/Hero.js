@@ -2,8 +2,8 @@ import React from "react";
 import HeroImg from "../Assets/hero-img.png";
 
 import {
-  AiOutlineTwitter,
-  AiOutlineYoutube,
+  AiOutlineInstagram,
+  AiOutlineGithub,
   AiOutlineFacebook,
 } from "react-icons/ai";
 
@@ -13,7 +13,7 @@ const Hero = () => {
       <div className="container mx-auto grid md:grid-cols-2 items-center justify-center md:justify-between">
         <div className="hero-info pb-5 md:pb-0">
           <h1 className="text-4xl lg:text-6xl">
-            Hi, <br />I am <span className="text-accent">a</span>mrin <br />
+            Hi, <br />I am <span className="text-accent">h</span>ennifant <br />
             Frontend Developer
           </h1>
 
@@ -23,21 +23,21 @@ const Hero = () => {
 
           <div className="flex py-5 ">
             <a
-              href="https://twitter.com/"
+              href="https://www.instagram.com/hennifantus/"
               className="pr-4 inline-block text-accent hover:text-white"
             >
               {" "}
-              <AiOutlineTwitter size={40} />{" "}
+              <AiOutlineInstagram size={40} />{" "}
             </a>
             <a
-              href="https://www.youtube.com/"
+              href="https://github.com/hennifant"
               className="pr-4 inline-block text-accent hover:text-white"
             >
               {" "}
-              <AiOutlineYoutube size={40} />{" "}
+              <AiOutlineGithub size={40} />{" "}
             </a>
             <a
-              href="https://www.facebook.com/"
+              href="https://www.facebook.com/henni.fant.5/"
               className="pr-4 inline-block text-accent hover:text-white"
             >
               {" "}
